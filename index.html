@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LumiAmour</title> <!-- Website Name Updated -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body onload="checkPassword()">
+    <div id="locked" class="hidden">
+        <h2>Enter Password</h2>
+        <input type="password" id="password">
+        <button onclick="unlockSite()">Unlock</button>
+    </div>
+
+    <div id="content" class="hidden">
+        <header>
+            <h1>Welcome to LumiAmour 💖</h1> <!-- Website Name Updated -->
+        </header>
+
+        <section class="message">
+            <h2>Dear Trisha,</h2>
+            <p>You are my sunshine, my happiness, and my forever love. LumiAmour is a special place just for you! ❤️</p>
+        </section>
+
+        <section class="gallery">
+            <h2>Our Beautiful Memories</h2>
+            <div class="images">
+                <img src="Snapchat-1207063866.jpg" alt="Us Together">
+                <img src="Snapchat-35664153.jpg" alt="Our Special Day">
+                <img src="Snapchat-386649646.jpg" alt="A Beautiful Moment">
+            </div>
+        </section>
+
+        <section class="love-letter">
+            <h2>A Special Love Letter</h2>
+            <p id="letter">Click below to reveal a love letter.</p>
+            <button onclick="showLoveLetter()">Read Letter</button>
+        </section>
+
+        <footer>
+            <p>Made with ❤️ for you - LumiAmour</p> <!-- Website Name Updated -->
+        </footer>
+    </div>
+</body>
+</html>
